@@ -11,7 +11,9 @@ app.set('view engine', 'ejs');
 
 
 // Mount routes
-
+app.get('/home', function(req,res){
+  res.render('home/index');
+})
 
 // Tell the app to listen on port 3000
 
