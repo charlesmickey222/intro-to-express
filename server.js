@@ -1,4 +1,5 @@
 import express from 'express';
+import { mangaPlural } from './data/manga-data';
 // Create Express app
 
 const app = express();
