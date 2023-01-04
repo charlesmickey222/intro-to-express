@@ -1,0 +1,14 @@
+{
+  "entry": "home",
+  "output": {
+    "filename": "index.ejs",
+    "path": "path.resolve(__dirname, 'home')"
+  },
+  "devServer": {
+    "static": "path.resolve(__dirname, 'views')",
+    "port": 3000,
+    "hot": true
+  }
+
+}
+
